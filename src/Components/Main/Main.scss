@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Conteiner{
+    max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main{
+    background: #DCEAF5;
+
+}
+.main_page{
+    display: flex;
+    // flex-wrap: wrap-reverse;
+    // justify-content: center;
+    .main-text{
+        padding-top: 117px;
+        h3{
+            //styleName: H1 Heading;
+        font-family: Poppins;
+        font-size: 64px;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -0.03em;
+        text-align: left;
+        color:#1D3444;
+        width:576px;
+        height: 144px;
+        top: 201px;
+        left: 320px;
+        gap: 0px;
+        opacity: 0px;
+        padding-bottom: 13px;
+        }
+        p{
+            font-family: Poppins;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+            max-width:571px;
+            height: 60px;
+            top: 357px;
+            left: 321px;
+            gap: 0px;
+            opacity: 0px;
+            padding-bottom: 32px;
+            padding-top: 13px;
+        }
+        .main-btn{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding-top: 32px;
+              button{
+                width: 199px;
+                height: 54px;
+                top: 449px;
+                left: 320px;
+                gap: 0px;
+                border-radius: 27px;
+                opacity: 0px;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 17.04px;
+                text-align: center;
+                color: #FFFFFF;
+                background: #F58A07;
+                border: none;
+                cursor: pointer;
+              }
+        }
+
+        .logo-img{
+            width: 555px;
+            margin-right: 60px;
+            img{
+                width: 755px;
+                top: 169px;
+                left: 792px;
+                gap: 0px;
+                opacity: 0px;
+            }
+        }
+    }
+}
