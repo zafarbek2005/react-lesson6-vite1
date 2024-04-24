@@ -8,23 +8,17 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+
 }
 .Conteiner{
     max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 20px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
-.text{
-    h1{
-        font-family: Poppins;
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 56px;
-        letter-spacing: -0.03em;
-        text-align: left;
-        padding-top: 100px;
-    }
+body{
+    padding-top:100px;
 }
+
 .Cards{
     display: flex;
     flex-wrap: wrap;
@@ -74,6 +68,8 @@
             opacity: 0px;
             padding-top: 16px;
             padding-left: 32px;
+            overflow: hidden;
+            text-overflow: ellipsis;
           }
           button{
             border:none;
@@ -86,6 +82,16 @@
             background: inherit;
             margin-top: 24px;
             padding-left: 32px;
+
+          }
+          img{
+            width: 400px;
+            height: 250px;
+            top: 1081px;
+            left: 320px;
+            gap: 0px;
+            border-radius: 20px 20px 0px 0px;
+            opacity: 0px;
 
           }
        }

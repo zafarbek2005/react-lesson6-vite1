@@ -4,11 +4,12 @@ import Navbar from '../Header/Navbar'
 import mainlogo from '../Header/img/Header Logos.svg'
 import bro from '../Main/img/bro.svg'
 import Main_bt from './Main_bt'
+import Footer from '../Footer/Footer'
 
 const Main = () => {
   return (
     <>
-            {/* <Navbar/> */}
+      
 
     <main>
         <section className='Conteiner'>
@@ -34,7 +35,7 @@ const Main = () => {
             </div>
         </section>
         <Main_bt/>
-
+        <Footer/>
     </main>
     
     

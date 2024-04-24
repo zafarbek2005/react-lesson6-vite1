@@ -15,17 +15,17 @@
     margin: 0 auto;
     padding: 0 20px;
 }
-// header{
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     right: 0;
-//     z-index: 100;
-//     background: #fff;
-// }
-// body{
-// padding-top: 60px;
-// }
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background: #fff;
+}
+body{
+padding-top:80px;
+}
 
 .navbar{
     display: flex;
@@ -35,7 +35,7 @@
      padding-top:20px;
      background: #fff;
 
-
+    
       .items{
         display: flex;
         align-items: center;
@@ -50,6 +50,7 @@
             line-height: 24px;
             color: #394149;
             background: #fff !important;
+             
 
          }
          button{

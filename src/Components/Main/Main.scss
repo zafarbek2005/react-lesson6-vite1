@@ -8,6 +8,8 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    // background: #DCEAF5;
+
 }
 .Conteiner{
     max-width: 1320px;
@@ -17,12 +19,16 @@
 
 main{
     background: #DCEAF5;
-
+        height:3000px;
+        top: 169px;
+        left: 792px;
+        gap: 0px;
+        opacity: 0px;
 }
 .main_page{
     display: flex;
-    // flex-wrap: wrap-reverse;
-    // justify-content: center;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
     .main-text{
         padding-top: 117px;
         h3{
@@ -92,6 +98,17 @@ main{
                 gap: 0px;
                 opacity: 0px;
             }
+        }
+    }
+    .bro{
+        
+        img{
+            width:700px;
+            // height: 618px;
+            top: 169px;
+            left: 792px;
+            gap: 0px;
+            opacity: 0px;
         }
     }
 }

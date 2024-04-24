@@ -3,6 +3,9 @@ import './mainbt.scss'
 import card_img from '../Main/img/Image1.svg'
 import card_img1 from '../Main/img/Image.svg'
 import card_img2 from '../Main/img/Image2.svg'
+
+
+
 const Main_bt = () => {
   return (
     <>

@@ -2,6 +2,7 @@ import React from 'react'
 import './servis.scss'
 import Main_bt from '../Main/Main_bt'
 import opa from './img/Header image.svg'
+import Footer from '../Footer/Footer'
 const SEvis = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const SEvis = () => {
             </div>
         </div>
        <Main_bt/>
+       <Footer/>
    
    
    

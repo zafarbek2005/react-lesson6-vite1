@@ -2,6 +2,7 @@ import React from 'react'
 import './Carers.scss'
 import Main_bt from '../Main/Main_bt'
 import opa from '../Carers/img/opa.svg'
+import Footer from '../Footer/Footer'
 const Carer = () => {
   return (
    <>
@@ -19,6 +20,7 @@ const Carer = () => {
             </div>
         </div>
        <Main_bt/>
+       <Footer/>
    
    
    

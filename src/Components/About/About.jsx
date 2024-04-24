@@ -2,6 +2,7 @@ import React from 'react'
 import './About.scss'
 import opa from '../About/img/Header Image.svg'
 import Main_bt from '../Main/Main_bt'
+import Footer from '../Footer/Footer'
 const About = () => {
   return (
     <>
@@ -18,6 +19,7 @@ const About = () => {
             </div>
         </div>
         <Main_bt/>
+        <Footer/>
 
     
     

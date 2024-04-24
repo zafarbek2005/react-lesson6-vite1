@@ -5,6 +5,7 @@ import Bloglink from "./Pages/Blog/Bloglink"
 import Navbar from './Components/Header/Navbar';
 import Carerslink from './Pages/Carers/Carerslink'
 import Serveses from './Pages/SERvesis/Serveses';
+import Productlink from './Pages/Productslink/Productslink'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Carerslink" element={<Carerslink/>} />
           <Route path="/Serveses" element={<Serveses/>} />
           <Route path="/Bloglink" element={<Bloglink/>} />
+          <Route path="/Productslink" element={<Productlink/>}/>
         </Routes>
       </Router>
     </div>
