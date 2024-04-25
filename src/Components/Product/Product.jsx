@@ -22,7 +22,7 @@ const Product = () => {
               </Link>
             <h3>{el.title}</h3>
             <p>{el.description}</p>
-            <button>{el.brand}</button>
+            <button>$ {el.price}</button>
         </div>
     ));
 
