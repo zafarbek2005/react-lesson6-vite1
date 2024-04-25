@@ -4,6 +4,7 @@ import andew from '../../Components/Blog/anderw.svg';
 import job from '../../Components/Blog/Header Image.svg';
 import Footer from '../Footer/Footer';
 import axios from '../../API/Index'
+import { Link } from 'react-router-dom';
 
 const Product = () => {
     const [data, setData] = useState([]);
@@ -16,7 +17,9 @@ const Product = () => {
 
     const products = data.slice(0,6).map((el) => (
         <div className="card" key={el.id}>
+            <Link to={`/Product${el.id}`}>
             <img src={el.images[0]} alt="Product" />
+              </Link>
             <h3>{el.title}</h3>
             <p>{el.description}</p>
             <button>{el.brand}</button>
